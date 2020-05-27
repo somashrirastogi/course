@@ -1,0 +1,150 @@
+body {
+	font-size: 30px;
+	color: #f6b319;
+	background-color:#f6b319;
+	font-family: 'oxygen' sans-serif; 
+}
+
+
+ #header-nav {
+	background-color:#fce303;
+	border-radius: 0;
+	border:0px;
+	padding: 0px;
+	top: 0px
+}
+.menu-title{
+	margin: 10px;
+	padding:50px;
+}
+.menu-title {
+  text-align: center;
+  
+  margin-bottom: 30px;
+  font-size: 60px;
+  color:#0a0a0a;
+  font-family:  Oldtown, Blippo, Brushstroke,;
+}
+.container {
+  position:relative;
+  text-align:left;
+  top: 60px;
+  margin: 10px;
+}
+.item {
+  position:relative;
+  top: 0px;
+  padding:5px;
+  text-align: justify;
+  background-color:#ff3c00;
+  margin: 10px;
+  
+  border: 3px solid #000;
+}
+.item p {
+  margin-top: 20px;
+  margin-left: 0px;
+ padding:100px;
+  text-align: justify;
+  font-size: 60%;
+}
+.item-title {
+  position:absolute;
+  text-align: center;
+  top: 0;
+  right: 0px;
+  background:#8d2ed1;
+  padding:100 px;
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+#title-one {
+  background-color: #0a177d;
+}
+#title-two {
+  background-color: #8d2ed1;
+}
+#title-three {
+  background-color: #c4502d;
+}
+/* Simple Responsive Framework. */
+/*------ Desktop ------*/
+@media (min-width: 992px) {
+  .col-lg-1,
+  .col-lg-2,
+  .col-lg-3,
+  .col-lg-4,
+  .col-lg-5,
+  .col-lg-6,
+  .col-lg-7,
+  .col-lg-8,
+  .col-lg-9,
+  .col-lg-10,
+  .col-lg-11,
+  .col-lg-12 {
+    float: left;
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+  // Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+body, html {
+  height: 100%;
+}
+.big-banner{
+  /* The image used */
+  background-image: url("https://www.shoutlo.com/uploads/articles/header-img-29_States,_29_Different_Varieties_of_Cuisines.jpg");
+
+  /* Full height */
+  height: 150%;
+
+  /* Center and scale the image nicely */
+  background-position:right; ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+}
+
